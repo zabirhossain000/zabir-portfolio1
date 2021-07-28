@@ -1,6 +1,9 @@
 h1{
     font-size: 50px ;
 }
+h2{
+    font-size: 35px ;
+}
 body{
     font-family: 'Prompt', sans-serif;
     margin: 0px ;
@@ -12,7 +15,7 @@ body{
     width: 50%;
     padding-left: 6% ;
 }
-section{
+.flexibility{
     display: flex;
 }
 .half-width img{
@@ -35,4 +38,16 @@ section{
     background-image: url(images/dream-banner.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiances{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Eitems{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 4% ;
+    box-shadow: 10px 10px 40px gray;
 }
