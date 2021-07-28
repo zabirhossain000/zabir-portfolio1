@@ -37,12 +37,13 @@ body{
 .dream{
     background-image: url(images/dream-banner.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right;  
+    margin-bottom: 170px;
 }
 .experiances{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    margin-bottom: 170px;
 }
 .Eitems{
     width: 40%;
@@ -50,4 +51,20 @@ body{
     margin-right: 5%;
     padding-left: 4% ;
     box-shadow: 10px 10px 40px gray;
+    
+}
+#border1{
+    border-image: linear-gradient(pink, red);
+    border-image-slice: 1;
+    border-left: 8px solid;
+    border-radius: 10px;
+}
+#border2{
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+    border-left: 8px solid;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
 }
