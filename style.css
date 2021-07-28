@@ -29,4 +29,10 @@ section{
 .image{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 170px;
+}
+.dream{
+    background-image: url(images/dream-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
