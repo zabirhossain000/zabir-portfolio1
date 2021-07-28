@@ -1,3 +1,32 @@
 h1{
-    color:brown;
+    font-size: 50px ;
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    margin: 0px ;
+}
+.color{
+    color: rgb(236, 15, 137);
+}
+.half-width{
+    width: 50%;
+    padding-left: 6% ;
+}
+section{
+    display: flex;
+}
+.half-width img{
+    width: 80%;
+}
+.button{
+    background-image: linear-gradient(rgb(206, 75, 32), rgb(245, 158, 172));
+    padding:10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: lightyellow;
+    border-radius: 10px;
+}
+.image{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
